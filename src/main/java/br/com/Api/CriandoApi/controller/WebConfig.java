@@ -13,7 +13,7 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addMapping("/**") // Aplica a configuração para todos os endpoints da API
                 
                 // IMPORTANTE: Troque a URL abaixo pela URL do seu GitHub Pages
-                .allowedOrigins("https://SEU-USUARIO.github.io") 
+                .allowedOrigins("https://zxDuarte1github.io") 
                 
                 // Métodos HTTP permitidos
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
