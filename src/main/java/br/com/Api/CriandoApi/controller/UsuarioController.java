@@ -28,7 +28,6 @@ import jakarta.validation.Valid;
 
 
 @RestController
-@CrossOrigin("*")
 @RequestMapping("/usuarios")
 public class UsuarioController{
 	
@@ -85,3 +84,4 @@ public class UsuarioController{
 	}
 
 }
+
